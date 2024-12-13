@@ -762,6 +762,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(254 249 195 / var(--tw-bg-opacity));
 }
+.bg-primer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 98 106 / var(--tw-bg-opacity));
+}
+.bg-segundo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 169 177 / var(--tw-bg-opacity));
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;

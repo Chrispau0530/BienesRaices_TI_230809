@@ -5,7 +5,7 @@ const inicio = async (req, res) => {
         Categoria.findAll({ raw: true }),
         Precio.findAll({ raw: true }),
         Propiedad.findAll({
-            limit: 3,
+            limit: 3,     
             where: {
                 categoriaID: 1 // Casas
             },
